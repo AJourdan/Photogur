@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
     root "pictures#index"
-    # resources :pictures
+    resources :pictures
     # get 'pictures' => 'pictures#index'
 
     # post 'pictures' => 'pictures#create'
